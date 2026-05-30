@@ -6,7 +6,7 @@ import pickle
 #TITLE
 st.title("Predict the price of your Laptop")
 
-lap=pd.read_csv("/Users/abhinavbadwekar/Documents/Documents - Abhinav’s MacBook Air/project vscode 3/cleaned laptop dataset.csv")
+lap=pd.read_csv("cleaned laptop dataset.csv")
 pipe=pickle.load(open('RandomForestRegressor.pkl','rb'))
 
 
